@@ -21,19 +21,17 @@ Este projeto consiste em um **scanner de portas TCP** desenvolvido em Python, co
 
 ## Estrutura de Arquivos
 
-```
 PORT_SCAN/
 │
 ├── scan-fases/
-│   ├── scan-f1.py                # Fase 1: scanner de porta única (terminal)
-│   ├── scan-f2.py                # Fase 2: scanner de range sequencial (terminal)
-│   ├── scan-f3-completa.py       # Fase 3: scanner completo com multithreading (terminal)
-│   └── port_scanner.py           # Versão com interface gráfica (recomendada)
+│ ├── scan-f1.py # Fase 1: scanner de porta única (terminal)
+│ ├── scan-f2.py # Fase 2: scanner de range sequencial (terminal)
+│ ├── scan-f3-completa.py # Fase 3: scanner completo com multithreading (terminal)
+│ └── port_scanner.py # Versão com interface gráfica (recomendada)
 │
-├── servicos.txt                  # Arquivo de serviços (formato: porta: nome)
-├── relatorios/                   # Pasta criada automaticamente para os relatórios
-└── README.md                     # Este arquivo
-```
+├── servicos.txt # Arquivo de serviços (formato: porta: nome)
+├── relatorios/ # Pasta criada automaticamente para os relatórios
+└── README.md # Este arquivo
 
 ### Descrição dos Scripts
 
