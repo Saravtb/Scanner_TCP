@@ -1,3 +1,15 @@
+"""
+PORTS SCAN - FASE 1
+-------------------------------
+Funcionalidades:
+- Verificação de porta TCP única
+- Timeout de 2 segundos
+- Tratamento de erros de socket
+- Interface interativa por terminal
+
+Aviso: Use apenas em laboratório autorizado!
+"""
+
 import socket
 
 # Scanner de Porta Única

@@ -1,10 +1,5 @@
 ```markdown
 # Port Scanner - Scanner de Portas TCP
-
-**Curso:** Tecnólogo em Segurança Cibernética - SENAI  
-**Disciplina:** Enumeração de Rede  
-**Professor:** João Eduardo Luisi
-
 ---
 
 ## Sobre o Projeto
@@ -178,6 +173,6 @@ Projeto acadêmico – uso restrito ao ambiente de ensino.
 
 ## Autor
 
-Desenvolvido por Sara Vitória
+Desenvolvido por Sara Vitória e Yasmin Gomes
 
 

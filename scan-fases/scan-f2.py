@@ -1,8 +1,15 @@
-# Scanner de Range de Portas - Fase 2
-# Autor: Aluno SENAI - Sprint 3
-# Descrição: Varre um intervalo de portas TCP em um host, exibindo quais estão abertas
-#            e mostrando um resumo ao final (total abertas/fechadas e tempo gasto).
+"""
+PORTS SCAN - FASE 2 
+------------------------------------------------
+Funcionalidades:
+- Varredura de um intervalo de portas TCP em um host específico
+- Modo sequencial (porta por porta) para fins didáticos e comparação de desempenho
+- Exibição em tempo real das portas abertas durante a varredura
+- Resumo final com total de portas abertas/fechadas e tempo gasto
+- Timeout configurado para evitar travamentos em portas filtradas
+Aviso: Use apenas em laboratório autorizado!
 
+"""
 import socket
 import time
 

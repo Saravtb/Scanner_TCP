@@ -1,11 +1,7 @@
 """
-PORT SCANNER COM INTERFACE GRÁFICA - VERSÃO COMPLETA
+PORT SCANNER COM INTERFACE GRÁFICA 
 ----------------------------------------------------
-Autor: Aluno SENAI - Sprint 3
-Descrição: Ferramenta educacional para varredura de portas TCP.
-           Permite escanear um range de portas em um alvo, com opção de
-           multithreading, banner grabbing e salvamento de relatórios.
-           Interface gráfica desenvolvida com Tkinter (tema roxo).
+Autor: Sara e Yasmin
 
 Funcionalidades:
 - Escaneamento de portas em um alvo (IP ou hostname)
