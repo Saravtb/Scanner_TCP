@@ -1,5 +1,5 @@
 ```markdown
-# Port Scanner 
+# Port Scanner - Scanner de Portas TCP
 
 **Curso:** Tecnólogo em Segurança Cibernética - SENAI  
 **Disciplina:** Enumeração de Rede  
@@ -28,13 +28,16 @@ Este projeto consiste em um **scanner de portas TCP** desenvolvido em Python, co
 
 ```
 PORT_SCAN/
-| scan-fases/
-| ├── scan-f1.py                # Fase 1: scanner de porta única (terminal)
-| ├── scan-f3-completa.py       # Fase 3: scanner completo com multithreading e banner (terminal)
-| ├── port_scanner.py           # Versão com interface gráfica (recomendada)
-|── servicos.txt              # Arquivo de serviços (porta: nome)
-├── relatorios/               # Pasta criada automaticamente para salvar os relatórios
-└── README.md                 # Este arquivo
+│
+├── scan-fases/
+│   ├── scan-f1.py                # Fase 1: scanner de porta única (terminal)
+│   ├── scan-f2.py                # Fase 2: scanner de range sequencial (terminal)
+│   ├── scan-f3-completa.py       # Fase 3: scanner completo com multithreading (terminal)
+│   └── port_scanner.py           # Versão com interface gráfica (recomendada)
+│
+├── servicos.txt                  # Arquivo de serviços (formato: porta: nome)
+├── relatorios/                   # Pasta criada automaticamente para os relatórios
+└── README.md                     # Este arquivo
 ```
 
 ### Descrição dos Scripts
@@ -65,9 +68,9 @@ Nenhuma biblioteca externa é necessária.
 
 ## Como Executar
 
-### 1. Clone ou baixe os arquivos
+### 1. Baixe os arquivos
 
-Coloque todos os arquivos em uma mesma pasta.
+Coloque todos os arquivos em uma mesma pasta, mantendo a estrutura sugerida acima.
 
 ### 2. Execute a versão desejada
 
@@ -80,9 +83,9 @@ python port_scanner.py
 #### Versões de terminal (Fases 1, 2 e 3)
 
 ```bash
-python scan-f1.py
-python scan-f2.py
-python scan-f3-completa.py
+python scan-fases/scan-f1.py
+python scan-fases/scan-f2.py
+python scan-fases/scan-f3-completa.py
 ```
 
 ### 3. Uso da Interface Gráfica
@@ -171,4 +174,10 @@ Resultados salvos em: relatorios/scan_192.168.1.100_20260521_153022.txt
 
 Projeto acadêmico – uso restrito ao ambiente de ensino.
 
-# scan-TCP
+---
+
+## Autor
+
+Desenvolvido por Sara Vitória
+
+
